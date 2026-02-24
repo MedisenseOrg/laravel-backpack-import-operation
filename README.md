@@ -21,7 +21,7 @@ To use the package locally while developing, you can add the VCS repository conf
    
    ```json
    "require": {
-       ""medisenseorg/laravel-backpack-import-operation": "dev-main"
+       "medisenseorg/laravel-backpack-import-operation": "dev-main"
    }
    ```
 
