@@ -5,7 +5,7 @@
             "url": "https://github.com/MedisenseOrg/laravel-backpack-import-operation.git"
         }
     ],
-    "name": "MedisenseOrg/laravel-backpack-import-operation",
+    "name": "medisenseorg/laravel-backpack-import-operation",
     "description": "An operation to make configurable imports for your CRUDs using the Backpack api you know and love",
     "license": "MIT",
     "authors": [
