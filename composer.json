@@ -1,5 +1,5 @@
 {
-    "name": "redsquirrelstudio/laravel-backpack-import-operation",
+    "name": "MedisenseOrg/laravel-backpack-import-operation",
     "description": "An operation to make configurable imports for your CRUDs using the Backpack api you know and love",
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
         }
     },
     "require": {
-        "backpack/crud": "^6.0",
+        "backpack/crud": "^6.0 || ^7.0",
         "maatwebsite/excel": "^3.1"
     },
     "extra": {
