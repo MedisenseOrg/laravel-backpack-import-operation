@@ -11,7 +11,7 @@ To use the package locally while developing, you can add the VCS repository conf
    "repositories": [
        {
            "type": "vcs",
-           "url": "path-to-your-local-repo"
+           "url": "https://github.com/MedisenseOrg/laravel-backpack-import-operation.git"
        }
    ],
    ```
@@ -21,7 +21,7 @@ To use the package locally while developing, you can add the VCS repository conf
    
    ```json
    "require": {
-       "vendor/package-name": "dev-main"
+       ""medisenseorg/laravel-backpack-import-operation": "dev-main"
    }
    ```
 
@@ -35,13 +35,13 @@ Alternatively, you can use the Composer command line to add a VCS repository con
 2. Run the following command to add your local repository:
    
    ```bash
-   composer config repositories.local vcs path-to-your-local-repo
+   composer config repositories.backpack-import vcs https://github.com/MedisenseOrg/laravel-backpack-import-operation.git
    ```
    
 3. After adding the repository, you can require the package by running:
    
    ```bash
-   composer require vendor/package-name dev-main
+   composer require medisenseorg/laravel-backpack-import-operation:dev-main
    ```
    
 4. This will fetch the package directly from your specified local path without needing to update the `composer.json` manually.
