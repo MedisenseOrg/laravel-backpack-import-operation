@@ -1,5 +1,7 @@
 # Import Operation for Backpack for Laravel
 
+## UPDATED to support Backpack V7
+
 [![Latest Version on Packagist][ico-version]][link-packagist]
 
 [![Total Downloads][ico-downloads]][link-downloads]
